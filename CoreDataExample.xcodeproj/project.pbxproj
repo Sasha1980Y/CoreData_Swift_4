@@ -13,6 +13,15 @@
 		7F22B8621FEE126500723BCB /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F22B8601FEE126500723BCB /* CoreDataExample.xcdatamodeld */; };
 		7F22B8641FEE126500723BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F22B8631FEE126500723BCB /* Assets.xcassets */; };
 		7F22B8671FEE126500723BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F22B8651FEE126500723BCB /* LaunchScreen.storyboard */; };
+		7FD0ADCC1FEEDBF900E5B1BF /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADC41FEEDBF900E5B1BF /* Order+CoreDataClass.swift */; };
+		7FD0ADCD1FEEDBF900E5B1BF /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADC51FEEDBF900E5B1BF /* Order+CoreDataProperties.swift */; };
+		7FD0ADCE1FEEDBF900E5B1BF /* RowOfOrder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADC61FEEDBF900E5B1BF /* RowOfOrder+CoreDataClass.swift */; };
+		7FD0ADCF1FEEDBF900E5B1BF /* RowOfOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADC71FEEDBF900E5B1BF /* RowOfOrder+CoreDataProperties.swift */; };
+		7FD0ADD01FEEDBF900E5B1BF /* Services+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADC81FEEDBF900E5B1BF /* Services+CoreDataClass.swift */; };
+		7FD0ADD11FEEDBF900E5B1BF /* Services+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADC91FEEDBF900E5B1BF /* Services+CoreDataProperties.swift */; };
+		7FD0ADD21FEEDBF900E5B1BF /* Customer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADCA1FEEDBF900E5B1BF /* Customer+CoreDataClass.swift */; };
+		7FD0ADD31FEEDBF900E5B1BF /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADCB1FEEDBF900E5B1BF /* Customer+CoreDataProperties.swift */; };
+		7FD0ADD51FEEDE1800E5B1BF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0ADD41FEEDE1800E5B1BF /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		7F22B8631FEE126500723BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F22B8661FEE126500723BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F22B8681FEE126500723BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD0ADC41FEEDBF900E5B1BF /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FD0ADC51FEEDBF900E5B1BF /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7FD0ADC61FEEDBF900E5B1BF /* RowOfOrder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FD0ADC71FEEDBF900E5B1BF /* RowOfOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7FD0ADC81FEEDBF900E5B1BF /* Services+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FD0ADC91FEEDBF900E5B1BF /* Services+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7FD0ADCA1FEEDBF900E5B1BF /* Customer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7FD0ADCB1FEEDBF900E5B1BF /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7FD0ADD41FEEDE1800E5B1BF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,14 @@
 		7F22B84D1FEE126500723BCB = {
 			isa = PBXGroup;
 			children = (
+				7FD0ADC41FEEDBF900E5B1BF /* Order+CoreDataClass.swift */,
+				7FD0ADC51FEEDBF900E5B1BF /* Order+CoreDataProperties.swift */,
+				7FD0ADC61FEEDBF900E5B1BF /* RowOfOrder+CoreDataClass.swift */,
+				7FD0ADC71FEEDBF900E5B1BF /* RowOfOrder+CoreDataProperties.swift */,
+				7FD0ADC81FEEDBF900E5B1BF /* Services+CoreDataClass.swift */,
+				7FD0ADC91FEEDBF900E5B1BF /* Services+CoreDataProperties.swift */,
+				7FD0ADCA1FEEDBF900E5B1BF /* Customer+CoreDataClass.swift */,
+				7FD0ADCB1FEEDBF900E5B1BF /* Customer+CoreDataProperties.swift */,
 				7F22B8581FEE126500723BCB /* CoreDataExample */,
 				7F22B8571FEE126500723BCB /* Products */,
 			);
@@ -57,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7F22B8591FEE126500723BCB /* AppDelegate.swift */,
+				7FD0ADD41FEEDE1800E5B1BF /* CoreDataManager.swift */,
 				7F22B85B1FEE126500723BCB /* ViewController.swift */,
 				7F22B85D1FEE126500723BCB /* Main.storyboard */,
 				7F22B8631FEE126500723BCB /* Assets.xcassets */,
@@ -139,9 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD0ADCC1FEEDBF900E5B1BF /* Order+CoreDataClass.swift in Sources */,
+				7FD0ADD31FEEDBF900E5B1BF /* Customer+CoreDataProperties.swift in Sources */,
+				7FD0ADD11FEEDBF900E5B1BF /* Services+CoreDataProperties.swift in Sources */,
+				7FD0ADCF1FEEDBF900E5B1BF /* RowOfOrder+CoreDataProperties.swift in Sources */,
 				7F22B85C1FEE126500723BCB /* ViewController.swift in Sources */,
+				7FD0ADCD1FEEDBF900E5B1BF /* Order+CoreDataProperties.swift in Sources */,
+				7FD0ADD51FEEDE1800E5B1BF /* CoreDataManager.swift in Sources */,
+				7FD0ADD21FEEDBF900E5B1BF /* Customer+CoreDataClass.swift in Sources */,
 				7F22B85A1FEE126500723BCB /* AppDelegate.swift in Sources */,
+				7FD0ADCE1FEEDBF900E5B1BF /* RowOfOrder+CoreDataClass.swift in Sources */,
 				7F22B8621FEE126500723BCB /* CoreDataExample.xcdatamodeld in Sources */,
+				7FD0ADD01FEEDBF900E5B1BF /* Services+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

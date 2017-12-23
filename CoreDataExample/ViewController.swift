@@ -7,19 +7,43 @@
 //
 
 import UIKit
+import CoreData
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let context = CoreDataManager.instance.managedObjectContext
+        
+         // Описание сущности
+        let entityDescription = NSEntityDescription.entity(forEntityName: "Customer", in: context)
+         
+         // Создание нового объекта
+        let managedObject = Customer(entity: entityDescription!, insertInto: context)
+         
+         // Установка значения атрибута
+         managedObject.name = "ООО «Василек»"
+        
+        // Запись объекта
+        do {
+            try context.save()
+        } catch {
+            print(error)
+        }
+        
+         
+         // Извлечение значения атрибута
+         let name = managedObject.name
+        print("name = \(String(describing: name))")
+         
+        
+        
+        
+        
+        
+       
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
